@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--favicon link-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu" onclick="showNavbar()">
+            <i class="fa-solid fa-bars" style="color: black;"></i>
+
+        </div>
+    </nav>
+
+    <!--Side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right" onclick="closeNavbar()">
+            <i class="fa-solid fa-circle-xmark" style="color: white;"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="./images/tshirt-red.png" alt="red t-shirt">
+                <p>Red T-Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/tshirt-black.png" alt="black tshirt">
+                <p>Black T-Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/tshirt-blue.png" alt="blue t-shirt">
+                <p>Blue T-Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/tshirt-white.png" alt="white tshirt">
+                <p>White T-Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/shirt-blue.png" alt="blue shirt">
+                <p>Blue Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/shirt design2.png" alt="designer shirt">
+                <p>Blue Design Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/shirt-white.png" alt="white shirt">
+                <p>White Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/shirt-design1.png" alt="designer shirt">
+                <p>Box Design Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/pant1.png" alt="pant">
+                <p>Blue Pant</p>
+            </div>
+             <div class="products-box">
+                <img src="./images/pant2.png" alt="pant">
+                <p>Grey Pant</p>
+            </div>
+             <div class="products-box">
+                <img src="./images/pant3.png" alt="pant">
+                <p>Sandal Pant</p>
+            </div>
+             <div class="products-box">
+                <img src="./images/pant4.png" alt="pant">
+                <p>Black Pant</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/glass1.png" alt="glass">
+                <p>Coolers</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/glass2.png" alt="glass">
+                <p>Framed Glass</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/glass3.png" alt="glass">
+                <p>Black Glass</p>
+            </div>
+            <div class="products-box">
+                <img src="./images/glass4.png" alt="glass">
+                <p>Sun Glass</p>
+            </div>
+             <div class="products-box">
+                <img src="./images/watch1.png" alt="watch">
+                <p>Watch</p>
+            </div>
+             <div class="products-box">
+                <img src="./images/watch2.png" alt="watch">
+                <p>Watch</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="footer-text">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere praesentium quaerat perferendis
+                    delectus dicta omnis consequuntur, eius est voluptatum nam illum labore quam qui pariatur,
+                    repellendus voluptate a. In, quaerat.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2025 nostra.com </p>
+    </div>
+    <!--javascript link-->
+    <script src="collection.js"></script>
+    <!--javascript link-->
+    <script src="index.js"></script>
+</body>
+
+</html>
